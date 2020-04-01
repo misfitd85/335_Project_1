@@ -9,6 +9,15 @@ import java.util.Scanner;
 
 public class Circle extends TwoDimensionalShape {
 
+
+    /*Commenting out for now
+    /**
+     * A new circle instance with given radius.
+     */
+    /*public Circle(radius: int) {
+        this.radius = radius
+    }*/
+
     TwoDimensionalShape shape1 = new TwoDimensionalShape();
 
     //private double base;
@@ -36,6 +45,8 @@ public class Circle extends TwoDimensionalShape {
         //System.out.println("The area of your Circle is: "+ area);
         return area;
     }
+
+
 
 
     public void displayData(){
